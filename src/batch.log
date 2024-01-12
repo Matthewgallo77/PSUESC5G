@@ -1,0 +1,52 @@
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 4:22:32 PM  Jan 12, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+The project 'Project1' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 60759. 
+        [info] Ansoft.ElectronicsDesktop.2023.2 Student version started with process ID 15892.
+        [info] pyaedt v0.7.8
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project Project1 has been created.
+        [info] Added design 'HFSSDesign1' of type HFSS.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.11706256866455078
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] The project 'Project1' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+Stopping Batch Run: 4:23:14 PM  Jan 12, 2024
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 4:40:55 PM  Jan 12, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+The project 'Project1' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] pyaedt v0.7.8
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project Project1 set to active.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.0170135498046875
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] Material library initialized and project materials loaded successfully! Elapsed time: 0m 0sec
+        [info] Project Project1 Saved correctly
+        [info] The project 'Project1' has been edited and/or solved. Do you want to save the changes?
+      Project1 (C:/Users/mattt/OneDrive/Documents/Ansoft/)
+        HFSSDesign1 (Modal Network)
+          [warning] Part Attributes: Name "MyBox" is already used, use name "MyBox_3". (05:58:38 PM  Jan 12, 2024)
+-- Message Window --
+Stopping Batch Run: 6:04:44 PM  Jan 12, 2024
