@@ -3,8 +3,10 @@ import os
 import pyaedt
 
 class GeometryManager:
+    '''Class to manage geometry (solids and sheets)'''
     def __init__(self, hfss_connection):
-        self.hfss = hfss_connection.hfss
+        self.hfss = hfss_connection
+        self.modeler = self.hfss.modeler
 
     def create_geometry(self, geometry_type, parameters, name, material):
         """Create a geometry object."""
@@ -25,3 +27,9 @@ class GeometryManager:
                 object.set_property_value(prop, value)
         else:
             print(f"Object '{object_name}' not found.")
+
+    def list_geometries(self):
+        """List solids and sheets in the model."""
+        solids = self.modeler.solid_names
+        sheets = self.modeler.sheet_names
+        return solids, sheets

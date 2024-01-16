@@ -50,3 +50,185 @@ The project 'Project1' has been edited and/or solved. Do you want to save the ch
           [warning] Part Attributes: Name "MyBox" is already used, use name "MyBox_3". (05:58:38 PM  Jan 12, 2024)
 -- Message Window --
 Stopping Batch Run: 6:04:44 PM  Jan 12, 2024
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 4:55:04 PM  Jan 15, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 55039. 
+        [info] Ansoft.ElectronicsDesktop.2023.2 Student version started with process ID 12020.
+        [info] pyaedt v0.7.8
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project Project1 has been created.
+        [info] Added design 'HFSSDesign1' of type HFSS.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.13962721824645996
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] Material library initialized and project materials loaded successfully! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: CustomMaterial
+        [info] Material has been added. Edit it to update in Desktop.
+        [info] Project Project1 Saved correctly
+-- Message Window --
+Stopping Batch Run: 5:04:23 PM  Jan 15, 2024
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 8:26:50 PM  Jan 15, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+[error] Maximum licensed number of demo users already reached.
+
+
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 8:27:12 PM  Jan 15, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 57407. 
+        [info] Ansoft.ElectronicsDesktop.2023.2 Student version started with process ID 17464.
+        [info] pyaedt v0.7.9
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project Project1 has been created.
+        [info] Added design 'HFSSDesign1' of type HFSS.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.01601386070251465
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] Project Project1 Saved correctly
+-- Message Window --
+Stopping Batch Run: 8:27:31 PM  Jan 15, 2024
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 8:27:48 PM  Jan 15, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 57437. 
+        [info] Ansoft.ElectronicsDesktop.2023.2 Student version started with process ID 25580.
+        [info] pyaedt v0.7.9
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project MicrostripPatchAntenna has been created.
+        [info] Added design 'HFSSDesign1' of type HFSS.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.10417914390563965
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] Project MicrostripPatchAntenna Saved correctly
+-- Message Window --
+Stopping Batch Run: 8:28:22 PM  Jan 15, 2024
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 8:45:03 PM  Jan 15, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 57507. 
+        [info] Ansoft.ElectronicsDesktop.2023.2 Student version started with process ID 19060.
+        [info] pyaedt v0.7.9
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project MicrostripPatchAntenna has been created.
+        [info] Added design 'HFSSDesign1' of type HFSS.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.11270356178283691
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] Project MicrostripPatchAntenna Saved correctly
+        [info] pyaedt v0.7.9
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project MicrostripPatchAntenna set to active.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.007506847381591797
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+-- Message Window --
+Stopping Batch Run: 8:47:24 PM  Jan 15, 2024
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 8:47:56 PM  Jan 15, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+The project 'MicrostripPatchAntenna' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 57717. 
+        [info] Ansoft.ElectronicsDesktop.2023.2 Student version started with process ID 12260.
+        [info] pyaedt v0.7.9
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project MicrostripPatchAntenna has been created.
+        [info] Added design 'HFSSDesign1' of type HFSS.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.10315847396850586
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] The project 'MicrostripPatchAntenna' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+Stopping Batch Run: 8:48:19 PM  Jan 15, 2024
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 8:48:37 PM  Jan 15, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+The project 'Project2' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 57764. 
+        [info] Ansoft.ElectronicsDesktop.2023.2 Student version started with process ID 17112.
+        [info] pyaedt v0.7.9
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project Project2 has been created.
+        [info] Added design 'HFSSDesign1' of type HFSS.
+        [info] Aedt Objects correctly read
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] The project 'Project2' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+Stopping Batch Run: 8:48:50 PM  Jan 15, 2024
+ 
+Ansys Electronics Desktop Student Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: C:\Program Files\AnsysEM\Ansys Student\v232\Win64\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 8:51:27 PM  Jan 15, 2024
+Running as user: DESKTOP-9ORIMT3\mattt
+Temp directory: C:\temp
+Project directory: C:\Users\mattt\OneDrive\Documents\Ansoft
+The project 'MicrostripPatchAntenna' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 57918. 
+        [info] Ansoft.ElectronicsDesktop.2023.2 Student version started with process ID 3508.
+        [info] pyaedt v0.7.9
+        [info] Python version 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+        [info] AEDT 2023.2.0 Build Date 2023-05-16 22:25:19
+        [info] Project MicrostripPatchAntenna has been created.
+        [info] Added design 'HFSSDesign1' of type HFSS.
+        [info] Aedt Objects correctly read
+        [info] aedt file load time 0.1496293544769287
+        [info] Modeler3D class has been initialized! Elapsed time: 0m 0sec
+        [info] The project 'MicrostripPatchAntenna' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+Stopping Batch Run: 8:52:17 PM  Jan 15, 2024
