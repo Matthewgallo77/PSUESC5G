@@ -11,8 +11,12 @@ def main():
     simulation_manager = SimulationManager(hfss_connection)
     simulation_manager.initalize_simulation_setup()
     simulation_manager.run_simulation()
+
+
     # geometry_manager = GeometryManager(hfss_connection)
-    # geometry_manager.list_geometries()
+    # geometry_manager.get_geometries()
+    # geometry_manager.modify_solid_geometry('Ground')
+
 
 
     # meta_material = MaterialManager(hfss_connection) # pass in hfss connection for use
