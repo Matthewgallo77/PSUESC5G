@@ -1,33 +1,45 @@
-
+import signal
+import threading
+import atexit
 
 from aedt_connection import HFSSConnection
 from manage_material import MaterialManager
-from manage_geometry import GeometryManager
+from manage_variables import VariableManager
 from manage_simulation import SimulationManager
 
+
+stop_event = threading.Event()
+
+def listen_for_exit_request():
+    input("Press <Enter> to stop the simulation...\n")
+    stop_event.set()  # Set the event to signal that the user wants to stop the simulation
+    print("Stopping simulation...")
+
+
+def on_exit(simulation_manager, hfss_connection):
+    print("Finalizing...")
+    simulation_manager.stop_simulation('simulation_results.csv')
+    hfss_connection.save_project()
+    print("DataFrame saved and project saved. Program terminated safely.")
+
+
 def main():
+    global stop_requested
     hfss_connection = HFSSConnection().initialize_hfss() # intializes connection to desktop app
-
     simulation_manager = SimulationManager(hfss_connection)
-    simulation_manager.initalize_simulation_setup()
-    simulation_manager.run_simulation()
+    variable_manager = VariableManager(hfss_connection, stop_event)
 
+    atexit.register(on_exit, simulation_manager, hfss_connection)
 
-    # geometry_manager = GeometryManager(hfss_connection)
-    # geometry_manager.get_geometries()
-    # geometry_manager.modify_solid_geometry('Ground')
+    exit_thread = threading.Thread(target=listen_for_exit_request)
+    exit_thread.start()
+    try:
+        while not stop_event.is_set():
+            variable_manager.modify_parameters_and_run_simulation(simulation_manager)
+            
+    finally:
+        on_exit(simulation_manager, hfss_connection)
 
-
-
-    # meta_material = MaterialManager(hfss_connection) # pass in hfss connection for use
-    
-    # meta_material.create_or_update_material(material_properties = {"permittivity": 3.5, "conductivity": 450000, "permeability": 1.5})
-
-    # hfss_connection.setup_simulation()
-    # hfss_connection.run_simulation()
-    # hfss_connection.get_results("S11")
-
-    hfss_connection.save_project() # always save project
 
 if __name__ == "__main__":
     main()

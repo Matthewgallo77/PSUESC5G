@@ -5,7 +5,7 @@ import pyaedt
 class HFSSConnection:
     def __init__(self):
         self.project_name = self.find_aedt_file(os.getcwd())
-        self.design_name = 'SRR' #input("Enter design name: ")  # input design name
+        self.design_name = 'design1' #input("Enter design name: ")  # input design name
         self.specified_version = '2023.2'
         self.new_desktop_session = False
         self.student_version = True
@@ -27,6 +27,10 @@ class HFSSConnection:
         self.hfss = pyaedt.Hfss(specified_version=self.specified_version, designname=self.design_name, projectname=self.project_name, new_desktop_session=self.new_desktop_session, student_version=self.student_version)
         self.modeler = self.hfss.modeler
         return self.hfss # this will be global object to interact with application
+    
+
+
+    
 
     def save_project(self):
         self.hfss.save_project() # saves changes to project 
